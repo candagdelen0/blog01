@@ -130,6 +130,51 @@
         </div>
     </section>
 
+    <section id="iletisim">
+        <div class="container">
+            <h3 id="h3iletisim">İletişim</h3>
+
+            <div id="iletisimopak">
+                <div id="formgrup">
+                    <div id="solform">
+                        <input type="text" name="isim" placeholder="Ad Soyad" required class="form-control">
+                        <input type="text" name="numara" placeholder="Telefon Numarası" required class="form-control">
+                    </div>
+                    <div id="sagform">
+                        <input type="email" name="mail" placeholder="E-Mail Adresi" required class="form-control">
+                        <input type="text" name="konu" placeholder="Konu Başlığı" required class="form-control">
+                    </div>
+
+                    <textarea name="mesaj" id="" cols="30" rows="10" placeholder="Mesajınız" class="form-control"></textarea>
+                    <input type="submit" value="Gönder">
+                </div>
+                <div id="adres">
+                    <h4 id="adresbaslik">Adres: </h4>
+                    <p class="adresp">Caferağa Mahallesi</p>
+                    <p class="adresp">Bahariye Caddesi</p>
+                    <p class="adresp">Boğa Sokak No:34</p>
+                    <p class="adresp">0212 212 19 12</p>
+                </div>
+            </div>
+
+            <footer>
+                <div id="copyright">
+                    2022 Tüm Hakları Saklıdır
+                </div>
+                <div id="socialmedia">
+                    <a href="#"><i class="fa-brands fa-facebook social"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter social"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram social"></i></a>
+                </div>
+
+                <a href="#menu"><i class="fa-sharp fa-solid fa-angle-up" id="up"></i></a>
+
+            </footer>
+
+        </div>
+
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
   crossorigin="anonymous"></script>
     <script src="owl/owl.carousel.min.js"></script>
